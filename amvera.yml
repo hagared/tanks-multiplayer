@@ -1,0 +1,12 @@
+meta:
+  environment: node
+  toolchain:
+    name: npm
+    version: 18
+
+build:
+  command: npm install
+
+run:
+  command: npm start
+  port: 3000
